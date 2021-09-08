@@ -1,0 +1,12 @@
+
+version: 2
+
+sources: 
+    - name: RED_EDW_ON_SF
+      database: RED_EDW_ON_SF
+      schema: Load
+      tables: 
+        - name: Load_Employee
+        - name: Person
+        - name: Product
+
